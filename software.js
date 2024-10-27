@@ -373,7 +373,7 @@ function crearImagen() {
                 ctx.textAlign = "center";
                 ctx.fillText(equipo.totalKills, positions.kills[index][0], positions.kills[index][1]);
 
-                ctx.fillStyle = "white"; // Top y Total en blanco
+                ctx.fillStyle = "black"; // Top y Total en blanco
                 ctx.font = "bold 70px Anton"; // Aplicar negrita
                 ctx.fillText(equipo.totalTop, positions.top[index][0], positions.top[index][1]);
                 ctx.fillText(equipo.totalPuntaje, positions.total[index][0], positions.total[index][1]);
