@@ -364,17 +364,17 @@ function crearImagen() {
             // Error de carga del logo
             logo.onerror = function () {
                 ctx.fillStyle = "black"; // Nombres en negro
-                ctx.font = "bold 95px Montserrat"; // Aplicar negrita
+                ctx.font = "bold 65px Anton"; // Aplicar negrita
                 ctx.textAlign = "center"; // Centrar el texto
                 ctx.fillText(equipo.nombre, positions.equipo[index][0], positions.equipo[index][1]);
 
                 ctx.fillStyle = "black"; // Kills en negro
-                ctx.font = "bold 100px Montserrat"; // Aplicar negrita
+                ctx.font = "bold 70px Anton"; // Aplicar negrita
                 ctx.textAlign = "center";
                 ctx.fillText(equipo.totalKills, positions.kills[index][0], positions.kills[index][1]);
 
                 ctx.fillStyle = "white"; // Top y Total en blanco
-                ctx.font = "bold 100px Montserrat"; // Aplicar negrita
+                ctx.font = "bold 70px Anton"; // Aplicar negrita
                 ctx.fillText(equipo.totalTop, positions.top[index][0], positions.top[index][1]);
                 ctx.fillText(equipo.totalPuntaje, positions.total[index][0], positions.total[index][1]);
 
