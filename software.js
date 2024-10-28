@@ -76,6 +76,7 @@ const logosPath = {
     "FENIX": "logos/FENIX.png",
     "FENIX Z1": "logos/FENIX.png",
     "FXL": "logos/NO.png",
+    "FACTOZ": "logos/FZ.png",
     "GAMERS ELITE": "logos/GE.png",
     "GK 1ST": "logos/GK.png",
     "GK ELITE PC": "logos/GK.png",
@@ -135,6 +136,7 @@ const logosPath = {
     "RS": "logos/RS.png",
     "RS ELITE": "logos/RS.png",
     "SINEIRA": "logos/SN.png",
+    "SILENCE": "logos/SCE.png",
     "T1": "logos/T1.png",
     "T1 PC": "logos/T1.png",
     "TEAM 21": "logos/TEAM21.png",
@@ -155,6 +157,7 @@ const logosPath = {
     "WTH RD": "logos/WTH.png",
     "WZE": "logos/WZE.png",
     "WZE TEAM": "logos/WZE.png",
+    "YOTSU": "logos/YOT.png",
     "ZELTA": "logos/ZELTA.png",
     "ZENIN": "logos/ZENIN.png",
     "XS AURA": "logos/XS.png", // FALTA LOGO
