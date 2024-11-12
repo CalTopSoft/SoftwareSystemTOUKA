@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: linear-gradient(#000000, #5f20e4, #000000);
+    background: linear-gradient(#000000, #FFFFFF, #000000);
     overflow: hidden; /* Evitar el zoom en móviles */
 }
 
