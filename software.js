@@ -195,16 +195,12 @@ class Equipo {
 
     calcularPuntosTop(posicion) {
         const puntos = {
-            1: 35, 
-            2: 30, 
-            3: 25, 
-            4: 20,
+            1: 50, 
+            2: 35, 
+            3: 20, 
+            4: 15,
             5: 10, 
-            6: 7, 
-            7: 5, 
-            8: 3,
-            9: 2, 
-            10: 1
+            6: 5
         };
         return puntos[posicion] || 0;
     }
@@ -330,7 +326,7 @@ function crearImagen() {
                 logo.onload = function () {
                     ctx.drawImage(logo, ...positions.logo[index], 260, 260);
 
-                    ctx.fillStyle = (index === 0) ? "yellow" : "white"; 
+                    ctx.fillStyle = (index === 0) ? "#5f20e4" : "white"; 
                     ctx.font = "95px Impact";
                     ctx.textAlign = "left";
                     ctx.fillText(equipo.nombre, ...positions.equipo[index]);
