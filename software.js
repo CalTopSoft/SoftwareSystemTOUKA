@@ -46,6 +46,7 @@ const logosPath = {
     "DIENASTY": "logos/DNST.png",
     "DYNASTY": "logos/DYNASTY.png",
     "DRAGON LEGIONS": "logos/DL.png", // FALTA LOGO
+    "EME HELLS": "logos/EME.png",
     "E11 ELEVEN EXY": "logos/EXY_TOP.png",
     "ELITE": "logos/KENIT.png",
     "ELITE KENIT": "logos/KENIT.png",
@@ -89,6 +90,7 @@ const logosPath = {
     "KENIT SPORTS": "logos/KENIT.png",
     "KIDS GANG": "logos/KGANG.png",
     "LEVIATANES": "logos/LEV.png",
+    "MYSTICS": "logos/MTC.png",
     "METSU": "logos/METSU.png",
     "METSU ONI": "logos/METSU.png",
     "MS": "logos/METSU.png",
