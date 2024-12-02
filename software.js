@@ -56,6 +56,7 @@ const logosPath = {
     "ELITE KENIT": "logos/KENIT.png",
     "EX WNG": "logos/EXWNG.png",
     "N1 NIMA EXY": "logos/N1.png",
+    "N1 NIMA EXY 2": "logos/N1.png",
     "GUARANI E-SPORTS": "logos/GUAR.png",
     "EXY BIN PEN": "logos/EXY_SA.png",
     "EXY CREW": "logos/EXY_CREW.png",
