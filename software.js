@@ -7,6 +7,7 @@ function ocultarSpinner() {
     document.getElementById("spinner").style.display = "none";
 }
 const logosPath = {
+    "ARMADYL": "logos/AD.png",
     "AGS EU": "logos/AGS.png",
     "AGSV2 ESPORTS": "logos/AGS.png",
     "ALQAEDA": "logos/ALQ.png",
@@ -85,6 +86,9 @@ const logosPath = {
     "GTX": "logos/GTX.png",
     "GTX E-SPORTS": "logos/GTX.png",
     "GTX SPORTS": "logos/GTX.png",
+    "HELLSTAR": "logos/HS.png",
+    "HELL7STAR": "logos/HS.png",
+    "HELLSTAR SIX": "logos/HSS.png",
     "IGZ": "logos/IGZ.png",
     "IGZ BLOODIE": "logos/IGZ.png",
     "IGZ ELITE": "logos/IGZ.png",
@@ -142,6 +146,7 @@ const logosPath = {
     "TTV": "logos/TTV.png",
     "TFO": "logos/TFO.png",
     "TFO NG": "logos/TFO.png",
+    "UNDER WOLRD": "logos/UW.png"
     "ULT ELITE": "logos/ULT.png",
     "UNKNOWS": "logos/UNK.png",
     "UNNAMED": "logos/UNNAMED.png",
