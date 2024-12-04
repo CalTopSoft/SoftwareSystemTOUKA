@@ -102,6 +102,7 @@ const logosPath = {
     "INTERPOL": "logos/ITP.png",
     "INT ELITE": "logos/INT.png",
     "ISD": "logos/ISD.png",
+    "KITSUNE": "logos/KT.png",
     "KAZE SPORTS": "logos/KAZES.png",
     "KAZE GAMING": "logos/KAZEG.png",
     "KH E-SPORTS": "logos/KH.png",
