@@ -28,6 +28,7 @@ const logosPath = {
     "ASG MOB": "logos/ASG.png",
     "ASG PC": "logos/ASG.png",
     "ASG PROSHU": "logos/ASG.png",
+    "LEVEL UP": "logos/LU.png",
     "ASGARD": "logos/ASG.png",
     "BLOODLUST": "logos/BLOODLUST.png",
     "BRK": "logos/BRK.png",
