@@ -119,7 +119,29 @@
             padding: 0px 1px;
             flex-wrap: wrap; /* Nombres crecen de izquierda a derecha */
         }
+        #searchContainer {
+            margin: 10px 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
 
+        #searchInput {
+            width: 600px;
+            height: ;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #00ff99;
+            box-shadow: #00ff99;
+            border-radius: 8px;
+            outline: none;
+            transition: box-shadow 0.1s ease;
+        }
+
+        #searchInput:focus {
+            box-shadow: 0 0 5px #00ff99;
+            border-color: #00ff99;
+        }
         .name-item {
             display: flex;
             justify-content: space-between;
