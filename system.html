@@ -183,6 +183,9 @@
     <div id="sidebar" class="sidebar">
         <button class="closeButton" id="closeButton">&times;</button>
         <h3 class="listname">Lista de Nombres</h3>
+        <div id="searchContainer">
+            <input type="text" id="searchInput" placeholder="Buscar equipo..." />
+        </div>
         <div id="nameList"></div>
     </div>
 
@@ -243,6 +246,31 @@
             }
         });
 
+        document.getElementById('searchInput').addEventListener('input', function () {
+            const searchValue = this.value.toLowerCase();
+            const nameItems = document.querySelectorAll('.name-item');
+        
+            nameItems.forEach(item => {
+                const name = item.textContent.toLowerCase();
+                if (name.includes(searchValue)) {
+                    item.style.display = 'flex'; // Mostrar si coincide
+                } else {
+                    item.style.display = 'none'; // Ocultar si no coincide
+                }
+            });
+        });
+        
+        // Desplazar al nombre al hacer clic
+        document.getElementById('nameList').addEventListener('click', function (event) {
+            if (event.target.classList.contains('name-item')) {
+                const name = event.target.textContent.trim();
+                navigator.clipboard.writeText(name).then(() => {
+                    alert(`${name} copiado al portapapeles!`);
+                });
+                event.target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        });
+            
         document.getElementById('closeButton').addEventListener('click', function() {
             const sidebar = document.getElementById('sidebar');
             sidebar.classList.remove('open');
